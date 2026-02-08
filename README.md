@@ -19,19 +19,7 @@ A lightweight native macOS menu bar app that displays your Claude usage limits a
 
 ## Screenshot
 
-```
-34%  <-- Menu bar shows 5-hour session %
-├── 5-hour: 34% (resets 2h 15m)
-├── Weekly: 32% (resets Feb 13)
-├── Sonnet: 15% (resets Feb 9)
-├── ────────────────
-├── Extra: $8.47/$20 (42%)
-├── ────────────────
-├── Updated: 13:45
-├── Refresh          ⌘R
-├── ────────────────
-└── Quit             ⌘Q
-```
+![Claude Usage Tracker](screenshot.png)
 
 ## Requirements
 
