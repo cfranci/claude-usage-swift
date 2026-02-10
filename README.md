@@ -22,6 +22,10 @@ A lightweight native macOS menu bar app that displays your Claude usage limits a
 
 ![Claude Usage Tracker](screenshot.png)
 
+### Hover Countdown
+
+![Hover countdown demo](hover-demo.gif)
+
 ## Requirements
 
 - macOS 12.0+
