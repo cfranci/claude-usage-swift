@@ -20,7 +20,8 @@ A lightweight native macOS menu bar app that displays your Claude usage limits a
 
 ## Screenshot
 
-![Claude Usage Tracker](screenshot.png)
+![Claude Usage Tracker](screenshot.png)<img width="189" height="184" alt="image" src="https://github.com/user-attachments/assets/f01f03de-6302-4c57-a0fd-00431ebfb0cf" />
+
 
 ### Hover Countdown
 
