@@ -77,9 +77,24 @@ The usage API is free - no tokens consumed.
 
 ## Troubleshooting
 
-### "?" in menu bar
-- Make sure Claude Code is installed and logged in
-- Run `claude` in terminal to verify
+### "?" in menu bar or usage shows 0%
+- Make sure Claude Code is installed and logged in: Run `claude` in terminal
+- **For Pro/Max users**: Your OAuth token may have expired. Follow these steps:
+  1. Open terminal and run: `claude setup-token`
+  2. This opens a browser to re-authenticate with your Claude subscription
+  3. After authenticating, restart the app
+- **API key users**: This app requires a Pro or Max subscription. API credits cannot be used to track subscription usage limits.
+
+### Getting "OAuth token has expired" error
+The OAuth token in your Keychain has expired. To fix:
+1. Delete old credentials: `security delete-generic-password -s "Claude Code-credentials"`
+2. Run `claude setup-token` to get a fresh token
+3. Restart Claude Usage app
+
+### Requirements
+- **Claude Pro or Max subscription** (not API credits)
+- **Valid billing** on your Anthropic account
+- OAuth tokens come from your subscription, not API keys
 
 ### App won't open (macOS security)
 - Go to **System Settings → Privacy & Security**
